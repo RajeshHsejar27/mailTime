@@ -42,7 +42,7 @@ app.post("/",function(req,res){
 
     const options={
         method:"POST",
-        auth: "hsejar:790b74ec58fbd872c2f536010df4af32-us18"
+        auth: "" //key not mentioned due to privacy issues
     }
     
 
@@ -74,6 +74,3 @@ app.post("/failure",function(req,res){
 app.listen(process.env.PORT || 3000,function(){
     console.log("server is running on port 3000");
 })
-
-//790b74ec58fbd872c2f536010df4af32-us18 api id
-//6558c862f6 list id/audiencce id
